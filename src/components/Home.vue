@@ -7,7 +7,7 @@
     <p>Trade or View your Portfolio</p>
     <p>You may save & load your data</p>
     <p>Click on 'End day' to begin a New Day!</p>
-    <p>Your Funds: {{ funds }}</p>
+    <h3>Your Funds: {{ funds | currency }}</h3>
   </div>
 </template>
 <script>
