@@ -14,7 +14,11 @@ const mutations = {
                 quantity: quantity
             });
         }
+        console.log(state.funds);
         state.funds -= stockPrice * quantity;
+        console.log(state.funds);
+        console.log(quantity);
+        console.log(stockPrice);
     },
     'SELL_STOCK' (state, { stockId, quantity, stockPrice }) {
         const record = state.stocks.find(element => element.id == stockId);
