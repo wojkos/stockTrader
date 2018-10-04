@@ -1,4 +1,4 @@
-# vue-cli
+# StockTrader
 
 > A Vue.js project
 
@@ -15,4 +15,4 @@ npm run dev
 npm run build
 ```
 
-For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
+[SEE ONLINE](http://stocktradervue.s3-website.eu-central-1.amazonaws.com/stocks).
